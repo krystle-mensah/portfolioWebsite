@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KMensah | Webdeveloper</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--fontawesome-->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!--css-->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#navbar-example" class="container">
+    <!-- ================================= -->
+                <!--        NAV SECTION         -->
+    <!-- ================================= -->
+    <!--html5navElement. bootstrapNavbarClass.navbarLight (is the theme) -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top"role="navigation" id="navbarWrap">
+        <div class="container-fluid">
+            <!-- anchorTag. bootstrapClassbrand.  -->
+            <a class="navbar-brand" href="index.html">K.Mensah</a>    
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="   #navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- menu-->
+                <!-- this div wraps the unordered list-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--unorderedList(ul)class navbar-nav holds list items. -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <!--anchorTag with a class of navLink-->
+                            <a class="nav-link" href="#showcase">home</a> 
+                        </li>
+                        <!--listItems(li) with a class of navItem -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">work</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a> 
+                        </li>
+                    </ul>
+                </div>
+        </div><!--container fluid -->
+    </nav><!--end nav--> 
+    <!-- ================================= -->
+                <!--        WELCOME SECTION         -->
+    <!-- ================================= -->
+    <div class="container" id="showcase">
+        <div class="row max-viewport align-items-center text-center">
+            <div class="col-12 col-sm-6 mx-auto my-5" id="welcomeMessage">
+                <p>Hi there, my name is krystle mensah and im a web developer from wandsworth london. Thanks for visiting my website. </p>
+                <a  href="mailto:krystle.webdev@gmail.com" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"id="sayHello"> Say hello!</a>
+            </div>
+            <!-- <div class="col-12 col-sm-6 mx-auto my-5">
+                
+            </div> -->
+            <hr>
+            <div class="col-12 col-sm-6 mx-auto my-5">
+                <a href="https://www.linkedin.com/in/krystle-mensah-13678532/" target="_blank"  class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-linkedin-in"></i>linkedin</a>
+                <a href="#learn_more"class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2">learn more</a>
+            </div>
+        </div><!--row-->
+    </div><!--container showcase-->
+    <!-- ================================= -->
+                <!--        SKILLS SECTION         -->
+    <!-- ================================= -->
+    <div class="container" id="skills">
+        <div class="row text-center padding">
+            <div class="col-12">
+                    <h1>skills</h1>   <!-- SECTION TITLE-->
+            </div>  
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/js_logo.png" alt="Client">   
+                <h5>javascript</h5>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/html.png" alt="Client">   
+                <h5>html</h5>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/css_logo.png" alt="Client">   
+                <h5>css3</h5>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/rails_on_ruby.png" alt="Client">   
+                <h5>ruby on rails</h5>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/bootstrap_logo.png" alt="Client">   
+                <h5>bootstrap</h5>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-6 skills-item zoom">
+                <img class="skills-logos img-fluid" src="img/heroku_logo.png" alt="Client">   
+                <h5>heroku</h5>
+            </div>
+        </div><!--row -->
+    </div><!--container -->
+    <hr class="my-4">   
+    <!-- ================================= -->
+                <!--        ABOUT SECTION         -->
+    <!-- ================================= -->
+    <section class="container" id="about">
+        <div class="row max-viewport align-items-center text-center">
+            <div class="col-sm-6 mx-auto my-5" id="aboutImg">
+                <img src="img/me.jpg"class="img-fluid"id="about_img"alt="me">          
+            </div><!--col 12-->
+            <div class="col-sm-6 mx-auto my-5" id="aboutText">
+                <h1>about</h1>  <!-- SECTION TITLE-->
+                <p>Currently i live in London. By day i serve customer in waitrose supermarket and night Im binging on the lastest tech news.I’m passionate about improving the ways in which we interact with technology to help improve people's lives.I’m currently available for both freelance and contract work in London or remotely.</p> 
+                    <p> I'm also a freelance songwriter and musician who is passionate about bridging the world of music and the latest tech. I’ve always had a passion for technology, from audio programming to web programming and i have built websites for colleagues and friends. I’m capable of tasks beyond the role of a web development and I’m ready to make a difference in an innovative team that places their client’s user experience at the forefront of their company mission.</p>
+            </div>
+        </div><!--row-->
+    </section><!--container-->
+    <hr class="my-4">   
+    <!-- ================================= -->
+                <!--        WORK SECTION       -->
+    <!-- ================================= -->
+    <section class="container" id="work">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h1>Work</h1>  <!-- SECTION TITLE-->
+                </div>
+                <div class="col-sm-6 my-3">
+                    <h5 class="my-3">Need a calculator!</h5>
+                    <a href="http://agitated-morse-15d235.bitballoon.com/" target="_blank"><img src="img/cal_2.jpg" class="img-fluid rounded" alt="picture"></a> 
+                </div>
+                <div class="col-sm-6 my-3">
+                    <h5 class="my-3">Ruby App</h5>
+                    <a href="https://djgear.herokuapp.com/" target="_blank"><img src="img/djgear.jpg" class="img-fluid rounded" alt="picture"></a>
+                </div>  
+                <div class="col-sm-6 my-3" id="caseStudy_photographyWebsite">
+                    <h5 class="panel-title">photography website</h5>
+                    <div class="panel panel-primary">
+                        <div class="panel-body">
+                            <a href="#" target="blank"><img src="img/photography_website.jpg" class="img-fluid rounded" alt="picture"></a>
+                        </div><!--panel-body-->
+                        <div class="panel-heading">
+                            <div class="panel-footer">
+                                <a href="#" data-toggle="modal" data-target="#work_modal" id="workProcess">view work process</a>
+                            </div><!--panel-footer-->
+                    </div><!--panel heading-->      
+                    </div><!--panel panel-primary-->
+                </div><!--col sm 6 my 3-->           
+                
+                    <!-- POPUP MODEL CASE STUDY -->
+                
+                    <div class="modal" id="work_modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="case_study_title">case study</h2>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div><!--modal header-->
+                                <div class="modal-body">
+                                    <iframe width="400" height="315" src="https://www.youtube.com/embed/xA27qhtFJbA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <!-- <video class="videoCasestudy" width="400" height="315" controls>
+                                        <source src="/Users/krystlemensah/Desktop/bootstrap 4 porfolio/vids/casestudyVideo.mp4" type="video/mp4"class="embed-responsive embed-responsive-16by9">
+                                    </video> -->
+                                    <embed id="modelCaseStudy" src="docs/task 1.4.pdf">
+                                </div><!--modal-body-->
+                            </div><!--modal-content-->
+                        </div><!--end-dialog-->
+                    </div><!--modal-->
+                
+                    <!--END POPUP MODEL CASE STUDY-->
+                
+                
+            </div><!-- row -->
+    </div><!-- section container work -->
+            <hr class="my-4">
+    <!-- ================================= -->
+                <!--        LEARN MORE SECTION         -->
+    <!-- ================================= -->
+    <section class="container" id="learn_more">
+        <div class="row text-center padding">
+            <div class="col-sm">
+                <h1>FAQ'S</h1>  <!-- SECTION TITLE-->
+            </div><!-- col-sm -->
+            <div class="col-sm">
+                <button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2" data-toggle="modal" data-target=".bd-example-modal">cv/resume</button>
+            </div><!-- col sm  -->
+        </div><!--row text center padding -->
+    </section><!-- container -->
+    
+    <!-- MODAL RESUME -->
+    
+    <div class="modal fade bd-example-modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">my resume</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div><!--model header -->
+            <div class="modal-body">
+                <embed id="modalResume" src="docs/Krystle Mensah.pdf">
+            </div><!-- model body -->
+            </div><!--model content -->
+        </div><!-- model dialog -->
+    </div><!-- /Modal -->
+    
+    <!-- END MODAL RESUME  -->
+    
+    <!-- ACCORDION -->
+    
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    why web development ?
+                    </button>
+                </h5>
+            </div><!--headingOne-->
+            <div id="collapseOne" class="accordionCollapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    i love change and web development is always changing. its just like the world we live in. nothing is forever.  
+                </div><!--card-body-->
+            </div>
+        </div><!-- card -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                what are your other interests?
+                </button>
+            </h5>
+            </div><!--#headingTwo-->
+            <div id="collapseTwo" class="accordionCollapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    i love playing guitar and writing songs. il share them with you one day!  
+                </div>
+            </div>
+        </div><!-- card -->
+        <!--cardThree-->
+        <div class="card">
+            <div class="card-header" id="headingThree">
+            <h5 class="mb-0"><button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">what do you value in a work enviroment?</button></h5>
+        </div>
+        <!--collapseThree-->
+        <div id="collapseThree" class="accordionCollapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                i enjoy team work and helping others in the team to produce fabulous work for clients.  
+            </div>
+        </div>
+    </div>
+    </div><!-- /accordion-->
+
+    <!-- END ACCORDION -->
+
+    <hr class="my-4"> 
+    <!-- ================================= -->
+                <!--        CONTACT SECTION         -->
+    <!-- ================================= -->
+    <section class="container" id="contact">
+        <div class="row max-viewport align-items-center text-center">
+            <div class="col-12">
+                <h1>Contact</h1>  <!-- SECTION TITLE-->
+            </div>
+            
+            <form id="contactFrom">
+                <div class="row" id="nameandphone">
+                    <div class="formGroup col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                        <label for="text">Your name</label>
+                        <input placeholder="your name" type="text" name="name" id="text" class="form-control"
+                            title="Please type in your name" minlength="5" maxlength="30">
+                    </div>
+                    <div class="formGroup col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                        <label for="phoneNumber">Your phone number</label>
+                        <input placeholder="your number" type="number" name="phone" id="phoneNumber"
+                            class="form-control"
+                            title="Please type in your phone number" minlength="8" maxlength="15">
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label for="email">E-mail address*</label>
+                    <input required placeholder="email" type="email" name="e-mail" id="email"
+                        class="form-control" title="Enter you e-mail address" minlength="5" maxlength="30">
+                </div>
+                <div class="formGroup">
+                    <label for="messageBox">Your message*</label>
+                    <textarea required placeholder="Your message comes here" class="form-control" id="messageBox"
+                            style="resize: none" minlength="5" maxlength="300"
+                            cols="40" rows="5" title="Send us your message" name="message">      
+                    </textarea>
+                    <p id="char_count"></p>
+                </div>
+                <button type="submit"id="sendFormButton"class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2">Submit form</button>
+            </form>
+            <!-- javascript map-->
+            <div class="col-sm">
+                <div id="map"></div>
+            </div>
+            <!--end map-->
+            
+            <div class="col-sm" id="contactInfo">
+                <div class="e-mail">
+                    <p><a class="lead" href="mailto:krystle.webdev@gmail.com"><i class="far fa-envelope-open"></i> E-mail: krystle.webdev@gmail.com</a></p>
+                </div><!--end e-mail-->
+                <div class="address">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Address: 54 Knowles House, London, UK <br>Find us on Google Maps
+                        <a class="btn btn-light btn-sm" id="GoogleButton"
+                        href="https://www.google.co.uk/maps/place/Neville+Gill+Cl,+London+SW18+4BP/@51.4540537,-0.1966236,17z/data=!3m1!4b1!4m5!3m4!1s0x48760f67244a6371:0x59fa13437a16ef45!8m2!3d51.4540668!4d-0.1944614"
+                        target="_blank" role="button">here</a>
+                    </p>
+                </div><!--end Address-->
+                <div class="phone">
+                    <p><i class="fas fa-phone"></i>
+                        +4407587189568 </p>
+                </div><!--end Phone-->
+            </div><!-- /col -->
+        </div><!-- row padding -->
+    </section><!-- container -->
+    <hr class="my-4">   
+    <!-- ================================= -->
+                <!--        FOOTER SECTION         -->
+    <!-- ================================= -->
+    <footer class="container">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h1>Connect</h1>  <!-- SECTION TITLE-->
+        </div>
+        <!-- <div class="col-12 social padding">
+            <a href="https://github.com/kryswebdev" target="_blank"><i class="fab fa-github-alt" id="githubLink"></i></a>
+            <a href="https://www.facebook.com/krystlemensah" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div> -->
+        
+        <!-- <div class="col-md-3"> -->
+        <div class="col-12 social padding">
+            <!--github link button target a blank page -->
+            <a href="https://github.com/kryswebdev" target="_blank"><button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-github-alt"></i> github </button></a>
+            <!--facebook-->
+            <a href="https://www.facebook.com/krystlemensah" target="_blank"><button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-facebook"></i> facebook </button></a>
+        </div>
+        
+        <div class="col-12 social padding"> <!--TWITTER-->
+            <a href="https://twitter.com/intent/tweet?screen_name=krystlewebdev&ref_src=twsrc%5Etfw"
+            class="twitter-mention-button" data-show-count="false">Tweet to @krystlewebdev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p>&copy; Krystle Mensah 2018 | All rights reversed.</p>
+        </div>
+    </footer>
+    <!-- ================================= -->
+             <!--        JAVASCRIPT GOES HERE         -->
+    <!-- ================================= -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/stellar-base/0.7.6/stellar-base.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!--JavaScript files here-->
+    <script src="js/scripts.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwRcDsM4ko7hu-u_T1rSsKY_3KV73I9rU&callback=initMap">
+  </script>
+</body>
+</html>

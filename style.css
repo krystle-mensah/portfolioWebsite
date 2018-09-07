@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Arizonia|Redressed|Rouge+Script|Sail'); /*logoFont*/
+@import url('https://fonts.googleapis.com/css?family=Lato');/*bodyFont*/
+body {
+    background: linear-gradient(rgb(139,69,19,0.6),rgba(0, 0, 0, 0.4)),url(img/londoncity.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    /* text-shadow: 0px 2px 2px #000; */
+}
+
+.max-viewport {
+    min-height: 100vh;
+}
+
+
+/*-------------------------------
+GLOBAL STYLES
+--------------------------------*/
+a {
+    color: #fff;
+    text-decoration: none!important;
+    /* text-shadow: 0px 2px 2px #000; */
+}
+a:hover {
+    color: #ffc107;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px #000;
+}
+h5 {
+    text-shadow: 0px 2px 2px #000;
+}
+button.btn.btn-lg.btn-outline-warning.text-uppercase.m-2.p-2 {
+    background: #ffc107;
+    color: #000;
+    border: solid;
+    box-shadow: 0 20px 50px rgba(59,43,91,1);
+}
+a.btn.btn-lg.btn-outline-warning.text-uppercase.m-2.p-2  {
+    background: #ffc107;
+    color: #000;
+    border: solid;
+    box-shadow: 0 20px 50px #3b2b5b;
+}
+p {
+    text-shadow: 0px 2px 2px #000;
+}
+/*---END GLOBAL STYLES------------------*/
+
+
+/*-------------------------------
+IMAGES
+--------------------------------*/
+.img-fluid { box-shadow:0 20px 50px
+    rgba(53,43,91,1);          
+}
+img#about_img {
+    height:50vh;
+    /* border-radius:20vh; */
+    border: #fff solid;
+    border-style: ridge;
+    border-width: 7px;
+}
+/*--END IMAGE-------------------*/
+
+
+/*-------------------------------
+NAVIGATION
+--------------------------------*/
+ /*
+ brandLogo
+ ----------------*/
+.navbar-brand {
+    font-family: 'Alex Brush',cursive;
+    /* text-shadow: 0px 2px 2px #000; */
+    /* border-radius: 6vh; */
+    padding: 4px;
+    border-bottom: 6px solid#ffc107;
+    color: white!important;
+    border-style: ridge;
+    box-shadow: 0 20px 50px rgba(59,43,91,1);
+    font-weight: 10vh;
+    font-weight: 200;
+    /* height: 10vh; */
+    width: 20vh;
+    text-align: center;
+    margin: 0;
+} 
+/*----------------------
+endBrandlogo
+*/
+a.nav-link {
+    color: #fff!important;
+}
+li.nav-item.active {
+    border-bottom: 1px solid#ffc107!important;
+}
+nav#navbarWrap {
+    background: transparent!important;
+    text-shadow: 0px 2px 2px #000;
+}
+
+/*---end nav ------------------*/
+
+
+/*-------------------------------
+welcome section
+--------------------------------*/
+@media (max-width: 576px) {
+    #sayHello {
+        /* visibility: hidden; just hids element*/
+        display: none;/*removes element complety*/
+    }
+}
+#welcomeMessage{
+    font-size: 34px;
+}
+@media (max-width: 576px) { 
+    #welcomeMessage {
+        top: 20vh;
+    }
+    .videoCasestudy {
+        width: 370px;
+    }
+}
+svg.svg-inline--fa.fa-linkedin-in.fa-w-14 {
+    position: relative;
+    bottom: 2px;
+    right: 3px;
+}/*
+------------------------
+end welcome section 
+*/
+
+
+/*-------------------------------
+ABOUT SECTION
+--------------------------------*/
+section#about {
+    background: rgb(0, 0,0,0.4);
+    border-radius: .25rem;
+}/*
+------------------------
+END ABOUT SECTION 
+*/
+
+
+/*-------------------------------
+learn more 
+--------------------------------*/
+embed#modalResume {
+    height:500px;
+    width:100%; 
+}
+/*
+accordion
+----------------------*/
+#accordion {
+    background: #ffc107;
+    text-align: center;
+    margin: 20px;
+    /* border: #fff solid; */
+    box-shadow: 0 47px 105px rgba(53,43,91,1);
+    /* border-style: ridge; */
+    /* border-width: 7px; */
+    border: solid #000;
+    color: #000;
+    border-radius: .25rem;
+}
+
+.card {
+    background-color:transparent;
+    /* text-shadow: 0px 2px 2px #000; */
+}
+.card-body {
+    background: rgb(0, 0,0,0.4);
+    /* border-radius: .25rem; */
+    /* color: #fff; */
+    /* text-shadow: 0px 2px 2px #000; */
+}
+
+button.btn.btn-link {
+    text-transform: uppercase;
+    position: relative;
+    right: 4vh;
+    /* text-shadow: 0px 2px 2px #000; */
+    color:#000;
+}
+#headingTwo {
+    border-bottom-style: ridge;
+    border-top: solid;
+}
+#headingThree {
+    border-top: solid;
+}
+.accordionCollapse {
+    border-top: solid;
+}
+h5#exampleModalLabel {
+    color: black;
+    text-transform: uppercase;
+    /* text-align: center; */
+    text-shadow: 0px 0px 0px #000;
+}
+/*
+------------------------
+END LEARN SECTION 
+*/
+
+
+.btn-link:hover {
+    color: #ffc107;
+}
+
+[class*="col-"] {
+    padding:1rem;
+}
+.col-md-2.col-sm-2.col-xs-6.skills-item.zoom {
+    width:50%;
+}
+form#contactFrom {
+    margin: 6vh;
+    width: 67vh;
+}
+
+
+/*-------------------------------
+work section
+--------------------------------*/
+img.img-fluid.rounded {
+    width:38vh;
+}
+h2.case_study_title {
+    color: blueviolet;
+    position: relative;
+    left: 20vh;
+}
+@media (min-width: 1200px) { 
+    div#caseStudy_photographyWebsite {
+        left: 40vh;
+    } 
+}
+#modelCaseStudy {
+    height: 500px;
+    width: 100%;     
+}
+.panel-footer {
+    text-shadow: 0px 2px 2px #000;
+    margin-top: 20px;
+}
+a#workProcess {
+    border-bottom: solid #ffc107;
+    border-radius: 1vh;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    /* background-color: #ffc107; */
+    /* background: #ffc107; */
+    border-bottom-width: 7px;
+}/*
+---------------------------------------
+END WORK SECTION 
+*/
+
+
+/*-------------------------------
+CONTACT SECTION
+--------------------------------*/
+/*
+map
+-----------------------------*/
+#map {
+    height: 38vh;
+    width: 50vh;
+    position: relative;
+    /* bottom: 10px; */
+    border: solid #000;
+    /* height: 50vh; */
+    /* border-radius: 20vh; */
+    border: #fff solid;
+    border-style: ridge;
+    border-width: 7px;
+}/* ----------------------------------
+end map
+/*
+form
+---------------------*/
+label {
+    text-shadow: 0px 2px 2px #000;
+}
+input#text, #phoneNumber, #email, textarea#messageBox {
+    /* background: transparent; */
+    background: #ffc107;
+    /* text-shadow: 0px 2px 2px #000; */
+    border: solid #000;
+    color: #000;
+}
+/* input#text, #phoneNumber, #email, textarea#messageBox:hover {
+    border-color: #ffc107;
+} */
+textarea#messageBox:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    /* border-color: rgb(255, 193, 0.8); */
+    box-shadow: 0 1px 1px rgb(255, 193, 7) inset, 0 0 8px rgb(255, 193, 0.6);
+    /* outline: 0 none; */
+    /* color: #000; */
+}
+.btn-light {
+    color: #fff;
+    background: transparent!important;
+    border-color: #f8f9fa;
+}
+#contactInfo {
+    background: rgb(0, 0,0,0.4);
+    border-radius: .25rem;
+}
+a#GoogleButton:hover {
+    color: #ffc107;
+}
+/*
+-----------------------------------
+END CONTACT
+*/
+
+
+/*-------------------------------
+footer section
+--------------------------------*/
+/* .col-12.social.padding a  {
+    font-size: 4.5rem;
+    padding: 3rem;
+} */
+.fa-facebook {
+    color: #3b5998;
+}
+svg#githubLink  {
+    color: black;
+}
+/* .btn.btn-Github {
+    background-color: transparent;
+    color: #fff;
+    border-color: #cff99e;
+    border-radius: 0;
+}
+.btn.btn-Github:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0;
+} */
+/*
+----------------------------------
+END FOOTER
+*/
+
+
+/*---Media Queries --*/
+/*
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
