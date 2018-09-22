@@ -52,12 +52,9 @@
     <div class="container" id="showcase">
         <div class="row max-viewport align-items-center text-center">
             <div class="col-12 col-sm-6 mx-auto my-5" id="welcomeMessage">
-                <p>Hi there, my name is krystle mensah and im a web developer from wandsworth london. Thanks for visiting my website. </p>
+                <p>Hi there, my name is krystle mensah and im a web developer from wandsworth london. </p>
                 <a  href="mailto:krystle.webdev@gmail.com" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"id="sayHello"> Say hello!</a>
             </div>
-            <!-- <div class="col-12 col-sm-6 mx-auto my-5">
-                
-            </div> -->
             <hr>
             <div class="col-12 col-sm-6 mx-auto my-5">
                 <a href="https://www.linkedin.com/in/krystle-mensah-13678532/" target="_blank"  class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-linkedin-in"></i>linkedin</a>
@@ -109,7 +106,7 @@
                 <img src="img/me.jpg"class="img-fluid"id="about_img"alt="me">          
             </div><!--col 12-->
             <div class="col-sm-6 mx-auto my-5" id="aboutText">
-                <h1>about</h1>  <!-- SECTION TITLE-->
+                <h1>about</h1> 
                 <p>Currently i live in London. By day i serve customer in waitrose supermarket and night Im binging on the lastest tech news.I’m passionate about improving the ways in which we interact with technology to help improve people's lives.I’m currently available for both freelance and contract work in London or remotely.</p> 
                     <p> I'm also a freelance songwriter and musician who is passionate about bridging the world of music and the latest tech. I’ve always had a passion for technology, from audio programming to web programming and i have built websites for colleagues and friends. I’m capable of tasks beyond the role of a web development and I’m ready to make a difference in an innovative team that places their client’s user experience at the forefront of their company mission.</p>
             </div>
@@ -131,12 +128,16 @@
                 <div class="col-sm-6 my-3">
                     <h5 class="my-3">Ruby App</h5>
                     <a href="https://djgear.herokuapp.com/" target="_blank"><img src="img/djgear.jpg" class="img-fluid rounded" alt="picture"></a>
-                </div>  
+                </div>
+                <div class="col-sm-6 my-3">
+                    <h5 class="my-3">Split Landing page</h5>
+                    <a href="https://nervous-bhabha-d57c1f.netlify.com/" target="_blank"><img src="img/splitLandingPage.jpg" class="img-fluid rounded" alt="picture"></a>
+                </div>    
                 <div class="col-sm-6 my-3" id="caseStudy_photographyWebsite">
                     <h5 class="panel-title">photography website</h5>
                     <div class="panel panel-primary">
-                        <div class="panel-body">
-                            <a href="#" target="blank"><img src="img/photography_website.jpg" class="img-fluid rounded" alt="picture"></a>
+                        <!-- <div class="panel-body"> -->
+                            <a href="https://thirsty-turing-f0e714.netlify.com/" target="blank"><img src="img/photography_website.jpg" class="img-fluid rounded" alt="picture"></a>
                         </div><!--panel-body-->
                         <div class="panel-heading">
                             <div class="panel-footer">
@@ -158,10 +159,9 @@
                                         </button>
                                 </div><!--modal header-->
                                 <div class="modal-body">
-                                    <iframe width="400" height="315" src="https://www.youtube.com/embed/xA27qhtFJbA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                    <!-- <video class="videoCasestudy" width="400" height="315" controls>
-                                        <source src="/Users/krystlemensah/Desktop/bootstrap 4 porfolio/vids/casestudyVideo.mp4" type="video/mp4"class="embed-responsive embed-responsive-16by9">
-                                    </video> -->
+                                    <iframe width="400" height="315" src="https://www.youtube.com/embed/xA27qhtFJbA" frameborder="0" 
+                                    allow="autoplay; encrypted-media" allowfullscreen>
+                                    </iframe>
                                     <embed id="modelCaseStudy" src="docs/task 1.4.pdf">
                                 </div><!--modal-body-->
                             </div><!--modal-content-->
@@ -169,18 +169,17 @@
                     </div><!--modal-->
                 
                     <!--END POPUP MODEL CASE STUDY-->
-                
-                
+                   
             </div><!-- row -->
     </div><!-- section container work -->
-            <hr class="my-4">
+    <hr class="my-4">
     <!-- ================================= -->
                 <!--        LEARN MORE SECTION         -->
     <!-- ================================= -->
     <section class="container" id="learn_more">
         <div class="row text-center padding">
             <div class="col-sm">
-                <h1>FAQ'S</h1>  <!-- SECTION TITLE-->
+                <h1>FAQ'S</h1> 
             </div><!-- col-sm -->
             <div class="col-sm">
                 <button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2" data-toggle="modal" data-target=".bd-example-modal">cv/resume</button>
@@ -262,7 +261,7 @@
     <section class="container" id="contact">
         <div class="row max-viewport align-items-center text-center">
             <div class="col-12">
-                <h1>Contact</h1>  <!-- SECTION TITLE-->
+                <h1>Contact</h1>  
             </div>
             
             <form id="contactFrom">
@@ -294,11 +293,14 @@
                 </div>
                 <button type="submit"id="sendFormButton"class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2">Submit form</button>
             </form>
-            <!-- javascript map-->
+            
+            <!-- MAP-->
+            
             <div class="col-sm">
                 <div id="map"></div>
             </div>
-            <!--end map-->
+            
+            <!--END MAP-->
             
             <div class="col-sm" id="contactInfo">
                 <div class="e-mail">
@@ -326,22 +328,15 @@
     <footer class="container">
     <div class="row text-center padding">
         <div class="col-12">
-            <h1>Connect</h1>  <!-- SECTION TITLE-->
+            <h1>Connect</h1> 
         </div>
-        <!-- <div class="col-12 social padding">
-            <a href="https://github.com/kryswebdev" target="_blank"><i class="fab fa-github-alt" id="githubLink"></i></a>
-            <a href="https://www.facebook.com/krystlemensah" target="_blank"><i class="fab fa-facebook"></i></a>
-        </div> -->
-        
-        <!-- <div class="col-md-3"> -->
         <div class="col-12 social padding">
-            <!--github link button target a blank page -->
             <a href="https://github.com/kryswebdev" target="_blank"><button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-github-alt"></i> github </button></a>
             <!--facebook-->
             <a href="https://www.facebook.com/krystlemensah" target="_blank"><button type="button" class="btn btn-lg btn-outline-warning text-uppercase m-2 p-2"><i class="fab fa-facebook"></i> facebook </button></a>
         </div>
         
-        <div class="col-12 social padding"> <!--TWITTER-->
+        <div class="col-12 social padding">
             <a href="https://twitter.com/intent/tweet?screen_name=krystlewebdev&ref_src=twsrc%5Etfw"
             class="twitter-mention-button" data-show-count="false">Tweet to @krystlewebdev</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
